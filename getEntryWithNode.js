@@ -184,8 +184,15 @@ var data = [
                 [[119822768, null, 0]],
             ],
             [
+                1134695637,
+                "5.上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[1973655584, null, 1]],
+            ],
+            [
                 360302987,
-                "5.第二節",
+                "6.第二節",
                 null,
                 3,
                 [
@@ -253,14 +260,14 @@ var data = [
             ],
             [
                 609733592,
-                "6.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "7.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[714947543, null, 1]],
             ],
             [
                 840872135,
-                "7.教師出席狀況",
+                "8.教師出席狀況",
                 null,
                 2,
                 [
@@ -270,21 +277,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於7-1)",
+                                "請假(代課教師姓名請填於8-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於7-1)",
+                                "調課(調課日期、節次、調課教師請填於8-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與7-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與8-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -303,14 +310,21 @@ var data = [
             ],
             [
                 1941868436,
-                "7-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "8-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[1786512999, null, 0]],
             ],
             [
+                857385433,
+                "9. 上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[1806173177, null, 1]],
+            ],
+            [
                 1044978206,
-                "8.第三節",
+                "10.第三節",
                 null,
                 3,
                 [
@@ -378,14 +392,14 @@ var data = [
             ],
             [
                 2062693589,
-                "9.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "11.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[604197935, null, 1]],
             ],
             [
                 686714720,
-                "10.教師出席狀況",
+                "12.教師出席狀況",
                 null,
                 2,
                 [
@@ -395,21 +409,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於10-1)",
+                                "請假(代課教師姓名請填於12-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於10-1)",
+                                "調課(調課日期、節次、調課教師請填於12-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與10-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與12-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -428,14 +442,21 @@ var data = [
             ],
             [
                 1949153266,
-                "10-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "12-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[17245382, null, 0]],
             ],
             [
+                1103803254,
+                "13.上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[1292785364, null, 1]],
+            ],
+            [
                 2093674265,
-                "11.第四節",
+                "14.第四節",
                 null,
                 3,
                 [
@@ -503,14 +524,14 @@ var data = [
             ],
             [
                 750400321,
-                "12.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "15.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[398244057, null, 1]],
             ],
             [
                 923196471,
-                "13.教師出席狀況",
+                "16.教師出席狀況",
                 null,
                 2,
                 [
@@ -520,21 +541,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於13-1)",
+                                "請假(代課教師姓名請填於16-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於13-1)",
+                                "調課(調課日期、節次、調課教師請填於16-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與13-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與16-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -553,14 +574,21 @@ var data = [
             ],
             [
                 291518000,
-                "13-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "16-1本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[904910944, null, 0]],
             ],
             [
+                856964026,
+                "17.上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[1889140116, null, 0]],
+            ],
+            [
                 1160010877,
-                "14.第五節",
+                "18.第五節",
                 null,
                 3,
                 [
@@ -628,14 +656,14 @@ var data = [
             ],
             [
                 801075953,
-                "15.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "19.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[1113381671, null, 1]],
             ],
             [
                 608575934,
-                "16.教師出席狀況",
+                "20.教師出席狀況",
                 null,
                 2,
                 [
@@ -645,21 +673,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於16-1)",
+                                "請假(代課教師姓名請填於20-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於16-1)",
+                                "調課(調課日期、節次、調課教師請填於20-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與16-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與20-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -678,14 +706,14 @@ var data = [
             ],
             [
                 1812740227,
-                "16-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "20-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[405077547, null, 0]],
             ],
             [
                 1032913993,
-                "17.第六節",
+                "21.第六節",
                 null,
                 3,
                 [
@@ -753,14 +781,14 @@ var data = [
             ],
             [
                 790049442,
-                "18.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "22.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[871461081, null, 1]],
             ],
             [
                 756649130,
-                "19.教師出席狀況",
+                "23.教師出席狀況",
                 null,
                 2,
                 [
@@ -770,21 +798,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於19-1)",
+                                "請假(代課教師姓名請填於23-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於19-1)",
+                                "調課(調課日期、節次、調課教師請填於23-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與19-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與23-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -803,14 +831,21 @@ var data = [
             ],
             [
                 290347248,
-                "19-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "23-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[1174172028, null, 0]],
             ],
             [
+                1330888413,
+                "24. 上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[1185553404, null, 1]],
+            ],
+            [
                 1009480341,
-                "20.第七節",
+                "25.第七節",
                 null,
                 3,
                 [
@@ -878,14 +913,14 @@ var data = [
             ],
             [
                 1287140018,
-                "21.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
+                "26.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可）",
                 null,
                 0,
                 [[1732679242, null, 1]],
             ],
             [
                 1238097733,
-                "22.教師出席狀況",
+                "27.教師出席狀況",
                 null,
                 2,
                 [
@@ -895,21 +930,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於22-1)",
+                                "請假(代課教師姓名請填於27-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於22-1)",
+                                "調課(調課日期、節次、調課教師請填於27-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與22-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與27-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -928,14 +963,21 @@ var data = [
             ],
             [
                 2266271,
-                "22-1本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "27-1本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[257855159, null, 0]],
             ],
             [
+                825065310,
+                "28. 上課章節/內容摘要（簡述）",
+                null,
+                1,
+                [[803151641, null, 1]],
+            ],
+            [
                 196678485,
-                "23.第八節",
+                "29.第八節",
                 null,
                 3,
                 [
@@ -1004,14 +1046,14 @@ var data = [
             ],
             [
                 1958263994,
-                "24.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可；若無第八節的班級，填「無第八節」即可）",
+                "30.上課教師（跨班選修課程、綜合活動、自習課...等，若無固定任課老師，填「無」即可；若無第八節的班級，填「無第八節」即可）",
                 null,
                 0,
                 [[571339789, null, 1]],
             ],
             [
                 959195205,
-                "25.教師出席狀況",
+                "31.教師出席狀況",
                 null,
                 2,
                 [
@@ -1022,21 +1064,21 @@ var data = [
                             ["出席", null, null, null, 0],
                             ["缺席(完全未到班上課)", null, null, null, 0],
                             [
-                                "請假(代課教師姓名請填於25-1)",
+                                "請假(代課教師姓名請填於31-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "調課(調課日期、節次、調課教師請填於25-1)",
+                                "調課(調課日期、節次、調課教師請填於31-1)",
                                 null,
                                 null,
                                 null,
                                 0,
                             ],
                             [
-                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與25-1皆免填",
+                                "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與31-1皆免填",
                                 null,
                                 null,
                                 null,
@@ -1055,10 +1097,17 @@ var data = [
             ],
             [
                 640017267,
-                "25-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
+                "31-1.本節代課教師姓名(如為調課請填調課日期、節次、調課教師姓名)",
                 null,
                 1,
                 [[1296767361, null, 0]],
+            ],
+            [
+                1640686788,
+                "32. 上課章節/內容摘要（簡述；若無第八節，請填「無第八節」即可）",
+                null,
+                1,
+                [[221421666, null, 1]],
             ],
         ],
         ["", 1, 0, 1, 0],
@@ -1091,17 +1140,13 @@ var data = [
     1,
     "e/1FAIpQLSdXlbwviHhDTCnzXxBWlN73SAEU7HaFVlvStOU0FaxUkCymUg",
     0,
-    '[{"data":{"value":[]},"keyPath":["syncMap","applicationFonts","6"],"state":{"hashValue":"00000000"}},{"data":{"value":[]},"keyPath":["syncMap","domainFonts","0"],"state":{"hashValue":"00000000"}},{"data":{"familyList":["Alegreya","Amatic SC","Bree Serif","Calibri","Cambria","Merriweather","Permanent Marker","Pinyon Script","Playfair Display","Proxima Nova","Roboto","Roboto Mono","Ultra","Varela Round"],"recentlyUsedFamilyList":["LiHei Pro","Courier New","BiauKai","Arial","Times New Roman"],"transitionedFamilyList":[],"hasTransitioned":true},"keyPath":["syncMap","preferences","docs-fonts"],"state":{"timestamp":1622034479085335}},{"data":{"editorAnalyticsOnboarding":true,"blameLaunch":true,"saveIndicator":true,"smartCompose":true,"meetInEditorsPromo":true},"keyPath":["syncMap","preferences","docs-global_promos","0"],"state":{"timestamp":1628155928800995}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-unsupported_feature_warning_callout_bubble_shown_count"],"state":{"timestamp":1632229045539000}},{"data":{"value":false},"keyPath":["syncMap","preferences","mae-show_addons_menu_promo"],"state":{"timestamp":1632229045541000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-aips"],"state":{"timestamp":1632229045542000}},{"data":{},"keyPath":["syncMap","preferences","docs-homescreen-asp","6"],"state":{"timestamp":1628155928800995}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-homescreen-ftbdct"],"state":{"timestamp":1632229045542000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-dbs"],"state":{"timestamp":1632229045542000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-ht"],"state":{"timestamp":1632229045542000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-wws"],"state":{"timestamp":1632229045542000}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-etg-lvt"],"state":{"timestamp":1632229045544000}},{"data":{"value":true},"keyPath":["syncMap","preferences","docs-screenreader"],"state":{"timestamp":1629435255205059}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-enable_braille"],"state":{"timestamp":1629435255205059}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-mute_collaborators"],"state":{"timestamp":1629435255205059}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_chooser"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_link_form_promo"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_whats_new"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-expand_dasher_options"],"state":{"timestamp":1631668543776424}},{"data":{"proto":"[]"},"keyPath":["syncMap","preferences","freebird-auto_create_sink"],"state":{"timestamp":1632229045549000}},{"data":{"proto":"[]"},"keyPath":["syncMap","preferences","freebird-ui_version"],"state":{"timestamp":1632229045551000}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-questions_required_by_default"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-collect_usernames_by_default"],"state":{"timestamp":1631668543776424}},{"data":{"value":0},"keyPath":["syncMap","preferences","freebird-default_point_value"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_assessments_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-autovalidate_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_qxq_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_braveheart_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_manual_grading_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_record_view_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_brain_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-has_seen_braveheart_theme_warning"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_custom_themes_toast"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_edu_bundle_18_toast"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_quizzes_intro"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_question_import_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_locked_mode_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_draft_responses_modal"],"state":{"timestamp":1631668543776424}}]',
+    '[{"data":{"value":[]},"keyPath":["syncMap","applicationFonts","6"],"state":{"hashValue":"00000000"}},{"data":{"value":[]},"keyPath":["syncMap","domainFonts","0"],"state":{"hashValue":"00000000"}},{"data":{"familyList":["Alegreya","Amatic SC","Bree Serif","Calibri","Cambria","Merriweather","Permanent Marker","Pinyon Script","Playfair Display","Proxima Nova","Roboto","Roboto Mono","Ultra","Varela Round"],"recentlyUsedFamilyList":["LiHei Pro","Courier New","BiauKai","Arial","Times New Roman"],"transitionedFamilyList":[],"hasTransitioned":true},"keyPath":["syncMap","preferences","docs-fonts"],"state":{"timestamp":1622034479085335}},{"data":{"editorAnalyticsOnboarding":true,"blameLaunch":true,"saveIndicator":true,"smartCompose":true,"meetInEditorsPromo":true},"keyPath":["syncMap","preferences","docs-global_promos","0"],"state":{"timestamp":1628155928800995}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-unsupported_feature_warning_callout_bubble_shown_count"],"state":{"timestamp":1632473729950000}},{"data":{"value":false},"keyPath":["syncMap","preferences","mae-show_addons_menu_promo"],"state":{"timestamp":1632473729952000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-aips"],"state":{"timestamp":1632473729953000}},{"data":{},"keyPath":["syncMap","preferences","docs-homescreen-asp","6"],"state":{"timestamp":1628155928800995}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-homescreen-ftbdct"],"state":{"timestamp":1632473729953000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-dbs"],"state":{"timestamp":1632473729953000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-ht"],"state":{"timestamp":1632473729953000}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-homescreen-wws"],"state":{"timestamp":1632473729953000}},{"data":{"value":0},"keyPath":["syncMap","preferences","docs-etg-lvt"],"state":{"timestamp":1632473729955000}},{"data":{"value":true},"keyPath":["syncMap","preferences","docs-screenreader"],"state":{"timestamp":1629435255205059}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-enable_braille"],"state":{"timestamp":1629435255205059}},{"data":{"value":false},"keyPath":["syncMap","preferences","docs-mute_collaborators"],"state":{"timestamp":1629435255205059}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_chooser"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_link_form_promo"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_whats_new"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-expand_dasher_options"],"state":{"timestamp":1631668543776424}},{"data":{"proto":"[]"},"keyPath":["syncMap","preferences","freebird-auto_create_sink"],"state":{"timestamp":1632473729962000}},{"data":{"proto":"[]"},"keyPath":["syncMap","preferences","freebird-ui_version"],"state":{"timestamp":1632473729964000}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-questions_required_by_default"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-collect_usernames_by_default"],"state":{"timestamp":1631668543776424}},{"data":{"value":0},"keyPath":["syncMap","preferences","freebird-default_point_value"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_assessments_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-autovalidate_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_qxq_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_braveheart_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_manual_grading_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_record_view_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_brain_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-has_seen_braveheart_theme_warning"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_custom_themes_toast"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_edu_bundle_18_toast"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_quizzes_intro"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_question_import_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":true},"keyPath":["syncMap","preferences","freebird-show_locked_mode_guided_help"],"state":{"timestamp":1631668543776424}},{"data":{"value":false},"keyPath":["syncMap","preferences","freebird-show_draft_responses_modal"],"state":{"timestamp":1631668543776424}}]',
     1,
     0,
 ]
 
 const subset = data[1][1]
-var entrycode = []
-const viewUrl =
-    "https://docs.google.com/forms/d/e/1FAIpQLSdXlbwviHhDTCnzXxBWlN73SAEU7HaFVlvStOU0FaxUkCymUg/viewform?"
-const submitUrl =
-    "https://docs.google.com/forms/d/e/1FAIpQLSdXlbwviHhDTCnzXxBWlN73SAEU7HaFVlvStOU0FaxUkCymUg/formResponse?"
+let entrycode = []
 
 subset.forEach((item) => {
     const entry = item[4][0][0]
@@ -1109,127 +1154,4 @@ subset.forEach((item) => {
     entrycode.push(`entry.${entry}={${title}}`)
 })
 
-function update() {
-    const date = document.getElementsByName("date")[0]
-    const dt = new Date(date.value)
-    const classes = [
-        null,
-        [
-            "化學",
-            "彈性學習－化學",
-            "跨班加深加廣",
-            "跨班加深加廣",
-            "彈性學習－生物",
-            "國文",
-            "國文",
-        ],
-        ["化學", "化學", "英文", "英文", "美術", "美術", "全民國防教育"],
-        [
-            "數學",
-            "數學",
-            "跨班加深加廣",
-            "跨班加深加廣",
-            "綜合活動",
-            "跨班加深加廣",
-            "跨班加深加廣",
-        ],
-        [
-            "數學",
-            "彈性學習－數學",
-            "健康與護理",
-            "健康與護理",
-            "英文",
-            "英文",
-            "體育",
-        ],
-        ["國文", "國文", "數學", "班會", "體育", "生物", "生物"],
-        null,
-    ]
-    const currentDay = classes[dt.getDay()]
-
-    const list = ["1", "2", "3", "4", "5", "6", "7"]
-
-    list.forEach((item) => {
-        const p = document.getElementById(item)
-        p.innerHTML = currentDay[parseInt(item) - 1]
-    })
-}
-
-function processFormData() {
-    const classnames = [
-        document.getElementById("1").innerHTML,
-        document.getElementById("2").innerHTML,
-        document.getElementById("3").innerHTML,
-        document.getElementById("4").innerHTML,
-        document.getElementById("5").innerHTML,
-        document.getElementById("6").innerHTML,
-        document.getElementById("7").innerHTML,
-    ]
-    console.log(classnames)
-    const teachers = {
-        國文: "王曼莉",
-        英文: "柳雅馨",
-        數學: "黃智昇",
-        綜合活動: "無",
-        班會: "黃智昇",
-        "彈性學習－數學": "黃智昇",
-        化學: "曹淇峰",
-        "彈性學習－化學": "曹淇峰",
-        生物: "劉翠華",
-        "彈性學習－生物": "劉翠華",
-        跨班加深加廣: "無",
-        美術: "趙依誠",
-        全民國防教育: "戴慎孜",
-        健康與護理: "戴芳台",
-        體育: "蔡家豪",
-    }
-    const date = document.getElementsByName("date")[0].value
-    const entrydata = [
-        "entry.1856443187=黃靖緯",
-        "entry.762925573=313",
-        `entry.917412650=${date}`,
-        `entry.14235153=${classnames[0]}`,
-        `entry.329893755=${teachers[classnames[0]]}`,
-        "entry.1556327835=出席",
-        "entry.119822768=",
-        `entry.634850437=${classnames[1]}`,
-        `entry.714947543=${teachers[classnames[1]]}`,
-        "entry.869445378=出席",
-        "entry.1786512999=",
-        `entry.403989627=${classnames[2]}`,
-        `entry.604197935=${teachers[classnames[2]]}`,
-        "entry.635206839=出席",
-        "entry.17245382=",
-        `entry.909035250=${classnames[3]}`,
-        `entry.398244057=${teachers[classnames[3]]}`,
-        "entry.2007587202=出席",
-        "entry.904910944=",
-        `entry.574229561=${classnames[4]}`,
-        `entry.1113381671=${teachers[classnames[4]]}`,
-        "entry.72674477=出席",
-        "entry.405077547=",
-        `entry.1739516506=${classnames[5]}`,
-        `entry.871461081=${teachers[classnames[5]]}`,
-        "entry.1308935777=出席",
-        "entry.1174172028=",
-        `entry.2061162996=${classnames[6]}`,
-        `entry.1732679242=${teachers[classnames[6]]}`,
-        "entry.1552416909=出席",
-        "entry.257855159=",
-        "entry.1235594214=無第八節",
-        "entry.571339789=無第八節",
-        "entry.85147417=無第八節",
-        "entry.1296767361=",
-    ]
-
-    if (document.getElementById("go").checked) {
-        var newUrl = submitUrl
-    } else if (document.getElementById("wait").checked) {
-        var newUrl = viewUrl
-    }
-    entrydata.forEach((item) => {
-        newUrl += `${item}&`
-    })
-
-    window.open(newUrl)
-}
+console.log(entrycode)
