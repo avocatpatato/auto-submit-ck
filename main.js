@@ -151,3 +151,18 @@ function processFormData() {
 
     window.open(newUrl)
 }
+
+function focusOnEnter(id) {
+    if (e.keyCode === 13) {
+        document.getElementById(id).focus()
+    }
+}
+
+window.onkeydown = (e) => {
+    if (e.keyCode === 13) {
+        document.activeElement.nextElementSibling.nextElementSibling.focus()
+        console.log(
+            document.activeElement.nextElementSibling.nextElementSibling
+        )
+    }
+}
