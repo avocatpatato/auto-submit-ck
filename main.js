@@ -122,7 +122,7 @@ function processFormData() {
         `entry.1113381671=${teachers[classnames[4]]}`,
         "entry.72674477=出席",
         "entry.405077547=",
-        `entry.=${outlines[4]}`,
+        `entry.1602777528=${outlines[4]}`,
         `entry.1739516506=${classnames[5]}`,
         `entry.871461081=${teachers[classnames[5]]}`,
         "entry.1308935777=出席",
