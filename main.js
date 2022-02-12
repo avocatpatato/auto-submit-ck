@@ -147,7 +147,6 @@ function processFormData() {
             newUrl += `${item}&`
         })
 
-        console.log(newUrl)
         window.open(newUrl)
     })
 }
