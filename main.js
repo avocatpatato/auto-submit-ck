@@ -9,11 +9,11 @@ function update() {
             "彈性學習－化學",
             "跨班加深加廣",
             "跨班加深加廣",
-            "彈性學習－生物",
+            "全民國防教育",
             "國文",
             "國文",
         ],
-        ["化學", "化學", "英文", "英文", "美術", "美術", "全民國防教育"],
+        ["生物", "生物", "英文", "英文", "體育", "國文", "國文"],
         [
             "數學",
             "數學",
@@ -23,16 +23,16 @@ function update() {
             "跨班加深加廣",
             "跨班加深加廣",
         ],
+        ["化學", "化學", "彈性學習－數學", "班會", "體育", "英文", "英文"],
         [
             "數學",
-            "彈性學習－數學",
-            "健康與護理",
-            "健康與護理",
-            "英文",
-            "英文",
-            "體育",
+            "數學",
+            "藝術生活",
+            "藝術生活",
+            "彈性學習－生物",
+            "多元選修",
+            "多元選修",
         ],
-        ["國文", "國文", "數學", "班會", "體育", "生物", "生物"],
         undefined,
     ]
     const currentDay = classes[dt.getDay()]
@@ -54,102 +54,102 @@ function update() {
 
 function processFormData() {
     const viewUrl =
-        "https://docs.google.com/forms/d/e/1FAIpQLSdXlbwviHhDTCnzXxBWlN73SAEU7HaFVlvStOU0FaxUkCymUg/viewform?"
+        "https://docs.google.com/forms/d/e/1FAIpQLSchHsm62uUM-UZd3Z5wIDZ8Hnzi6W8rsTQGgxBy04QIUbb6ag/viewform?"
     const submitUrl =
-        "https://docs.google.com/forms/d/e/1FAIpQLSdXlbwviHhDTCnzXxBWlN73SAEU7HaFVlvStOU0FaxUkCymUg/formResponse?"
+        "https://docs.google.com/forms/d/e/1FAIpQLSchHsm62uUM-UZd3Z5wIDZ8Hnzi6W8rsTQGgxBy04QIUbb6ag/formResponse?"
 
-    const classnames = [
-        document.getElementById("1").innerHTML,
-        document.getElementById("2").innerHTML,
-        document.getElementById("3").innerHTML,
-        document.getElementById("4").innerHTML,
-        document.getElementById("5").innerHTML,
-        document.getElementById("6").innerHTML,
-        document.getElementById("7").innerHTML,
+    // classesToday[i] = [classname, outlines]
+    const classesToday = [
+        [
+            document.getElementById("1").innerHTML,
+            document.getElementById("a").value,
+        ],
+        [
+            document.getElementById("2").innerHTML,
+            document.getElementById("b").value,
+        ],
+        [
+            document.getElementById("3").innerHTML,
+            document.getElementById("c").value,
+        ],
+        [
+            document.getElementById("4").innerHTML,
+            document.getElementById("d").value,
+        ],
+        [
+            document.getElementById("5").innerHTML,
+            document.getElementById("e").value,
+        ],
+        [
+            document.getElementById("6").innerHTML,
+            document.getElementById("f").value,
+        ],
+        [
+            document.getElementById("7").innerHTML,
+            document.getElementById("g").value,
+        ],
     ]
-    const outlines = [
-        document.getElementById("a").value,
-        document.getElementById("b").value,
-        document.getElementById("c").value,
-        document.getElementById("d").value,
-        document.getElementById("e").value,
-        document.getElementById("f").value,
-        document.getElementById("g").value,
-    ]
-    const teachers = {
-        國文: "王曼莉",
-        英文: "柳雅馨",
-        數學: "黃智昇",
-        綜合活動: "無",
-        班會: "黃智昇",
-        "彈性學習－數學": "黃智昇",
-        化學: "曹淇峰",
-        "彈性學習－化學": "曹淇峰",
-        生物: "劉翠華",
-        "彈性學習－生物": "劉翠華",
-        跨班加深加廣: "無",
-        美術: "趙依誠",
-        全民國防教育: "戴慎孜",
-        健康與護理: "戴芳台",
-        體育: "蔡家豪",
+
+    const teachersAndAttendances = {
+        國文: ["王曼莉", "出席"],
+        英文: ["柳雅馨", "出席"],
+        數學: ["黃智昇", "出席"],
+        綜合活動: [
+            "無",
+            "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與5-1皆免填",
+        ],
+        班會: ["黃智昇", "出席"],
+        "彈性學習－數學": ["黃智昇", "出席"],
+        化學: ["曹淇峰", "出席"],
+        "彈性學習－化學": ["曹淇峰", "出席"],
+        生物: ["劉翠華", "出席"],
+        "彈性學習－生物": ["劉翠華", "出席"],
+        跨班加深加廣: [
+            "無",
+            "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與5-1皆免填",
+        ],
+        藝術生活: ["陳研伊", "出席"],
+        全民國防教育: ["戴慎孜", "出席"],
+        體育: ["蔡家豪", "出席"],
+        多元選修: [
+            "無",
+            "跨班選修課程、自習、綜合活動...等，無固定教師的課程，與5-1皆免填",
+        ],
     }
     const date = document.getElementsByName("date")[0].value
-    const entrydata = [
-        "entry.1856443187=黃靖緯",
-        "entry.762925573=313",
-        `entry.917412650=${date}`,
-        `entry.14235153=${classnames[0]}`,
-        `entry.329893755=${teachers[classnames[0]]}`,
-        "entry.1556327835=出席",
-        "entry.119822768=",
-        `entry.1973655584=${outlines[0]}`,
-        `entry.634850437=${classnames[1]}`,
-        `entry.714947543=${teachers[classnames[1]]}`,
-        "entry.869445378=出席",
-        "entry.1786512999=",
-        `entry.1806173177=${outlines[1]}`,
-        `entry.403989627=${classnames[2]}`,
-        `entry.604197935=${teachers[classnames[2]]}`,
-        "entry.635206839=出席",
-        "entry.17245382=",
-        `entry.1292785364=${outlines[2]}`,
-        `entry.909035250=${classnames[3]}`,
-        `entry.398244057=${teachers[classnames[3]]}`,
-        "entry.2007587202=出席",
-        "entry.904910944=",
-        `entry.1889140116=${outlines[3]}`,
-        `entry.574229561=${classnames[4]}`,
-        `entry.1113381671=${teachers[classnames[4]]}`,
-        "entry.72674477=出席",
-        "entry.405077547=",
-        `entry.1602777528=${outlines[4]}`,
-        `entry.1739516506=${classnames[5]}`,
-        `entry.871461081=${teachers[classnames[5]]}`,
-        "entry.1308935777=出席",
-        "entry.1174172028=",
-        `entry.1185553404=${outlines[5]}`,
-        `entry.2061162996=${classnames[6]}`,
-        `entry.1732679242=${teachers[classnames[6]]}`,
-        "entry.1552416909=出席",
-        "entry.257855159=",
-        `entry.803151641=${outlines[6]}`,
-        "entry.1235594214=無第八節",
-        "entry.571339789=無第八節",
-        "entry.85147417=無第八節",
-        "entry.1296767361=",
-        "entry.221421666=無第八節",
-    ]
 
-    if (document.getElementById("go").checked) {
-        var newUrl = submitUrl
-    } else if (document.getElementById("wait").checked) {
-        var newUrl = viewUrl
-    }
-    entrydata.forEach((item) => {
-        newUrl += `${item}&`
+    classesToday.forEach((classNow, index) => {
+        const classIndex = index + 1
+        const classname = classNow[0]
+        const outline = classNow[1]
+        const teacher = teachersAndAttendances[classname][0]
+        const attendance = teachersAndAttendances[classname][1]
+
+        const entrydata = [
+            "entry.314173678=黃靖緯",
+            "entry.1738547215=27",
+            "entry.1319745875=313",
+            `entry.1977272282=${date}`,
+            `entry.708837080=${classIndex}`,
+            `entry.331125135=${classname}`,
+            `entry.768699754=${teacher}`,
+            `entry.1276469790=${attendance}`,
+            `entry.1004856781=${outline}`,
+            "entry.1524799949=39",
+        ]
+
+        if (document.getElementById("go").checked) {
+            var newUrl = submitUrl
+        } else if (document.getElementById("wait").checked) {
+            var newUrl = viewUrl
+        }
+        entrydata.forEach((item) => {
+            newUrl += `${item}&`
+        })
+
+        console.log(newUrl)
+        window.open(newUrl)
     })
-
-    window.open(newUrl)
 }
 
 function focusOnEnter(id) {
