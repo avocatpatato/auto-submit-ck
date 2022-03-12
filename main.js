@@ -2,6 +2,7 @@ function update() {
     const outter = document.getElementById("outter")
     const date = document.getElementsByName("date")[0]
     const dt = new Date(date.value)
+
     const outlines = [
         document.getElementById("a"),
         document.getElementById("b"),
@@ -12,6 +13,10 @@ function update() {
         document.getElementById("g"),
         document.getElementById("h"),
     ]
+    outlines.forEach((item) => {
+        item.value = ""
+    })
+
     const classes = [
         undefined,
         [
@@ -62,10 +67,25 @@ function update() {
     }
 
     const list = ["1", "2", "3", "4", "5", "6", "7"]
+    const selectClass = [
+        "高三加深加廣7",
+        "高三加深加廣8",
+        " 高三加深加廣1",
+        "高三加深加廣2",
+        "高三加深加廣5",
+        "高三加深加廣6",
+        "高三多元選修",
+        "綜合活動",
+        "班會",
+    ]
 
     list.forEach((item) => {
         const p = document.getElementById(item)
-        p.innerHTML = currentDay[parseInt(item) - 1]
+        const className = currentDay[parseInt(item) - 1]
+        p.innerHTML = className
+        if (selectClass.includes(className) === true) {
+            outlines[parseInt(item) - 1].value = "無"
+        }
     })
 
     if (currentDay.length === 8) {
@@ -81,10 +101,6 @@ function update() {
         p.classList.add("hidden")
         input.classList.add("hidden")
     }
-
-    outlines.forEach((item) => {
-        item.value = ""
-    })
 
     outter.classList.remove("hidden")
 }
